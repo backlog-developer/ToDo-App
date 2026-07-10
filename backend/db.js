@@ -35,6 +35,6 @@ const todo = mongoose.model("todos", todoSchema);
 
 // then exporting the model todo
 module.exports = {
-  connectDB,
+  connectDB, //// Export both connection and mode
   todo,
 };
